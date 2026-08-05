@@ -116,14 +116,13 @@ I'm **Renganathan** — a software developer who enjoys turning ideas into clean
 ## 🚀 Featured Projects
 
 <p align="center">
-  <i>My projects are taking shape — everything I publish will be open source and linked right here.</i>
+  <a href="https://github.com/renganathan07105/STARK-X-MUSIC">
+    <img src="./profile/pin-STARK-X-MUSIC.svg" alt="STARK-X-MUSIC" width="46%" />
+  </a>
+  <a href="https://github.com/renganathan07105/ATLAS">
+    <img src="./profile/pin-ATLAS.svg" alt="ATLAS" width="46%" />
+  </a>
 </p>
-
-<!--
-  Template — replace with real repositories as they are published.
-  Use the official github-readme-stats-action (stats-organization/github-readme-stats-action@v2,
-  card: pin) to generate pinned repo cards in CI — do not hotlink the vercel.app public instance.
--->
 
 ---
 

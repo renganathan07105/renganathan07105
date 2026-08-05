@@ -36,6 +36,22 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate STARK-X-MUSIC pin card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=renganathan07105&repo=STARK-X-MUSIC&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=79C0FF
+          path: profile/pin-STARK-X-MUSIC.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate ATLAS pin card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=renganathan07105&repo=ATLAS&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=79C0FF
+          path: profile/pin-ATLAS.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
