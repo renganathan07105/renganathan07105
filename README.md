@@ -120,12 +120,9 @@ I'm **Renganathan** — a software developer who enjoys turning ideas into clean
 </p>
 
 <!--
-  Template — replace with real repositories as they are published:
-  <p align="center">
-    <a href="https://github.com/renganathan07105/REPO">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=renganathan07105&repo=REPO&theme=dark" alt="REPO" />
-    </a>
-  </p>
+  Template — replace with real repositories as they are published.
+  Use the official github-readme-stats-action (stats-organization/github-readme-stats-action@v2,
+  card: pin) to generate pinned repo cards in CI — do not hotlink the vercel.app public instance.
 -->
 
 ---
