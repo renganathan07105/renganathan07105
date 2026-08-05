@@ -10,7 +10,7 @@
 -->
 
 <p align="center">
-  <img src="./assets/hero.svg" alt="Renganathan — hero banner" width="100%" />
+  <img src="./assets/hero.svg" alt="Renganathan — animated hero banner with terminal" width="100%" />
 </p>
 
 <!-- Animated typing SVG -->
@@ -55,6 +55,10 @@ I'm **Renganathan** — a software developer who enjoys turning ideas into clean
 ---
 
 ## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="./assets/skills-marquee.svg" alt="Scrolling tech stack" width="100%" />
+</p>
 
 ### Programming Languages
 

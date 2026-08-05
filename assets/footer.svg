@@ -1,28 +1,47 @@
-<svg width="1000" height="160" viewBox="0 0 1000 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thanks for visiting">
+<svg width="1000" height="170" viewBox="0 0 1000 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated footer — thanks for visiting">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#58A6FF"/>
       <stop offset="50%" stop-color="#BC8CFF"/>
       <stop offset="100%" stop-color="#3FB950"/>
     </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#BC8CFF;#3FB950;#58A6FF" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3FB950">
+        <animate attributeName="stop-color" values="#3FB950;#58A6FF;#BC8CFF;#3FB950" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
   </defs>
 
+  <!-- twinkling sparkles -->
+  <g>
+    <path d="M150 34 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z" fill="#58A6FF"><animate attributeName="opacity" values="0.15;1;0.15" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M860 46 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 Z" fill="#BC8CFF"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" begin="0.8s" repeatCount="indefinite"/></path>
+    <path d="M690 24 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 Z" fill="#3FB950"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" begin="1.5s" repeatCount="indefinite"/></path>
+    <path d="M260 66 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 Z" fill="#58A6FF"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="2s" repeatCount="indefinite"/></path>
+    <path d="M520 20 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 Z" fill="#BC8CFF"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></path>
+    <path d="M780 30 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 Z" fill="#58A6FF"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></path>
+    <path d="M340 30 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 Z" fill="#3FB950"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.7s" begin="2.6s" repeatCount="indefinite"/></path>
+  </g>
+
   <!-- pulsing glow behind heart -->
-  <circle cx="500" cy="52" r="16" fill="#58A6FF">
-    <animate attributeName="r" values="13;24;13" dur="1.8s" repeatCount="indefinite"/>
+  <circle cx="500" cy="58" r="16" fill="#58A6FF">
+    <animate attributeName="r" values="13;26;13" dur="1.8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.25;0;0.25" dur="1.8s" repeatCount="indefinite"/>
   </circle>
 
   <!-- heart -->
-  <path d="M500 32 C500 32 483 45 483 56 C483 64 491 71 500 71 C509 71 517 64 517 56 C517 45 500 32 500 32 Z" fill="url(#g)"/>
+  <path d="M500 38 C500 38 483 51 483 62 C483 70 491 77 500 77 C509 77 517 70 517 62 C517 51 500 38 500 38 Z" fill="url(#grad)"/>
 
-  <text x="500" y="108" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18" fill="#C9D1D9">Thanks for stopping by — let&apos;s build something great together</text>
+  <text x="500" y="114" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18" fill="#C9D1D9">Thanks for stopping by — let&apos;s build something great together</text>
 
   <!-- animated wave -->
-  <path d="M0 150 Q 125 138 250 150 T 500 150 T 750 150 T 1000 150 V 160 H 0 Z" fill="url(#g)" opacity="0.3">
+  <path d="M0 160 Q 125 148 250 160 T 500 160 T 750 160 T 1000 160 V 170 H 0 Z" fill="url(#g)" opacity="0.3">
     <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
-      M0 150 Q 125 138 250 150 T 500 150 T 750 150 T 1000 150 V 160 H 0 Z;
-      M0 150 Q 125 162 250 150 T 500 150 T 750 150 T 1000 150 V 160 H 0 Z;
-      M0 150 Q 125 138 250 150 T 500 150 T 750 150 T 1000 150 V 160 H 0 Z"/>
+      M0 160 Q 125 148 250 160 T 500 160 T 750 160 T 1000 160 V 170 H 0 Z;
+      M0 160 Q 125 172 250 160 T 500 160 T 750 160 T 1000 160 V 170 H 0 Z;
+      M0 160 Q 125 148 250 160 T 500 160 T 750 160 T 1000 160 V 170 H 0 Z"/>
   </path>
 </svg>
