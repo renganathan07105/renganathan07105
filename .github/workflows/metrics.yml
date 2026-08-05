@@ -25,7 +25,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: metrics.svg
-          base: header, activity, community, metadata
+          base: header, community, metadata
           output_condition: always
           plugins_errors_fatal: no
           committer_branch: main
@@ -33,7 +33,6 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_achievements: yes
-          plugin_achievements_limit: 4
+          # activity + achievements disabled: upstream lowlighter/metrics bugs
+          # (activity: crashes on PushEvent with undefined commits; achievements:
+          #  queries Projects-classic which GitHub deprecated -> always errors)
